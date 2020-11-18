@@ -1,0 +1,63 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1a435f;
+  color: white;
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+a.enlace, a.enlace:visited, a.enlace:hover, a.enlace:active{
+    color: #444444 !important;
+}
+
+a.enlace2, a.enlace2:visited, a.enlace2:hover, a.enlace2:active{
+    color: #AA4444 !important;
+}
+
+div.fillrow { 
+    min-height: 340px !important;
+    height: 340px !important;
+}
+
+div.fill,img.fill { 
+    min-height: 100% !important;
+    height: 100% !important;
+}
+
+.vert-offset{
+    margin-top: 3em;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+	height: 100%;
+	margin: auto;
+}
+
+.pointable tr {
+    cursor: pointer;
+}
